@@ -10,7 +10,19 @@ class Show extends Component{
 
     render(){
         return(
-            <p>This is show</p>
+            <div className="showDiv">
+                <h3>Business Name</h3>
+                <p>Business Address</p>
+                <p>Front/Back loading: N/A</p>
+                <ul className="reviewsList">
+                    <li>
+                        <p>Mock review 1</p>
+                    </li>
+                    <li>
+                        <p>Mock review 2</p>
+                    </li>
+                </ul>
+            </div>
         )
     }
 }
