@@ -19,9 +19,13 @@ class Show extends Component{
                 <div className="reviewsContainer">
                     <ul className="reviewsList">
                         <li>
+                            <p>Review Author</p>
+                            <p>00/00/0000</p>
                             <p>Mock review 1</p>
                         </li>
                         <li>
+                            <p>Review Author</p>
+                            <p>00/00/0000</p>
                             <p>Mock review 2</p>
                         </li>
                     </ul>
