@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './showStyles.css';
 
 class Show extends Component{
     constructor(){

@@ -2,7 +2,7 @@
     width: 90%;
     margin: auto;
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 500px 750px;
 }
 .listComponent{
 grid-column:1;

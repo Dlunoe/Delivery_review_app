@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './listStyle.css';
 
 class List extends Component{
     constructor(){
