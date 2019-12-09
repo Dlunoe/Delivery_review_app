@@ -1,19 +1,19 @@
 .showDiv{
-display: flex;
 grid-template-columns: 1 3;
 border: 1px solid black;
 }
 
 .businessContainer{
-
+width: 100%;
 }
 
 .reviewsContainer{
-
+width: 100%;
 }
 
 .reviewsList{
-
+    border-top: 1px solid black;
+    padding: 0;
 }
 
 .reviews{

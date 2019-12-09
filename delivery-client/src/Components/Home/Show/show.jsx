@@ -24,7 +24,7 @@ class Show extends Component{
                             <p>00/00/0000</p>
                             <p>Mock review 1</p>
                         </li>
-                        <li>
+                        <li className="reviews">
                             <p>Review Author</p>
                             <p>00/00/0000</p>
                             <p>Mock review 2</p>
