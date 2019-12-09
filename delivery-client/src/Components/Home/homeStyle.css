@@ -1,5 +1,6 @@
 .homeContainer{
     width: 90%;
+    height: 800px;
     margin: auto;
     display: grid;
     grid-template-columns: 500px 750px;

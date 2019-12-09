@@ -1,3 +1,5 @@
 .searchListContainer{
     border: 1px black solid;
+    -webkit-flex: auto;
+    overflow-y: scroll;
 }
