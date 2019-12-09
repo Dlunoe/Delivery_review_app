@@ -7,10 +7,22 @@ border: 1px solid black;
 
 .businessContainer{
 width: 100%;
+display: grid;
 grid-template-rows: 50px auto;
 grid-template-columns: 50% 50%;
 }
-
+.businessName{
+    grid-row: 1;
+    grid-column: 1;
+}
+.businessAddress{
+    grid-row: 2;
+    grid-column: 1;
+}
+.businessLoading{
+    grid-column: 2;
+    grid-row: 1;
+}
 .reviewsContainer{
     /* height: 100%; */
     width: 100%;
@@ -18,7 +30,7 @@ grid-template-columns: 50% 50%;
 }
 
 .reviewsList{
-    
+    overflow-y: scroll;
     border-top: 1px solid black;
     padding: 0;
     
