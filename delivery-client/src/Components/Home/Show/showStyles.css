@@ -1,5 +1,5 @@
 .showDiv{
-display: grid;
+display: flex;
 grid-template-columns: 1 3;
 
 }

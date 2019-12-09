@@ -1,0 +1,12 @@
+.homeContainer{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.listComponent{
+grid-column:1;
+}
+.showComponent{
+grid-column: 2;
+}

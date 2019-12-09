@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Show from './Show/show';
 import List from './List/list';
+import './homeStyle.css';
 
 class Home extends Component{
     constructor(){
@@ -12,8 +13,8 @@ class Home extends Component{
     render(){
         return(
             <div className="homeContainer">
-                <List />
-                <Show />
+                <List className="listComponent"/>
+                <Show className="showComponent"/>
             </div> 
         )
     }
