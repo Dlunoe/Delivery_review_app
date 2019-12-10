@@ -15,10 +15,14 @@ class List extends Component{
                     <li className="searchItem">
                         <h4 className="searchName">business name</h4>
                         <p className="searchAddress">address</p>
+                        <p className="searchFront">Front/Back Loading: Front</p>
+                        <p className="searchDock">Dock: 7</p>
                     </li>
                     <li className="searchItem">
                         <p className="searchName">business name</p>
                         <p className="searchAddress">address</p>
+                        <p className="searchFront">Front/Back Loading: Front</p>
+                        <p className="searchDock">Dock: 7</p>
                     </li>
                 </ul>
             </div>
