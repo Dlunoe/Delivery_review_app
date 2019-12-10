@@ -11,14 +11,14 @@ class List extends Component{
     render(){
         return(
             <div className="searchListContainer">
-                <ul>
-                    <li>
-                        <p>business name</p>
-                        <p>address</p>
+                <ul className="searchList">
+                    <li className="searchItem">
+                        <p className="searchName">business name</p>
+                        <p className="searchAddress">address</p>
                     </li>
-                    <li>
-                        <p>business name</p>
-                        <p>address</p>
+                    <li className="searchItem">
+                        <p className="searchName">business name</p>
+                        <p className="searchAddress">address</p>
                     </li>
                 </ul>
             </div>
