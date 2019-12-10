@@ -13,7 +13,7 @@ class List extends Component{
             <div className="searchListContainer">
                 <ul className="searchList">
                     <li className="searchItem">
-                        <p className="searchName">business name</p>
+                        <h4 className="searchName">business name</h4>
                         <p className="searchAddress">address</p>
                     </li>
                     <li className="searchItem">

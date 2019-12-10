@@ -3,3 +3,16 @@
     -webkit-flex: auto;
     overflow-y: scroll;
 }
+.searchList{
+    padding: 0;
+    align-content: center;
+}
+.searchItem{
+    border: 1px solid black;
+}
+.searchName{
+
+}
+.searchAddress{
+
+}

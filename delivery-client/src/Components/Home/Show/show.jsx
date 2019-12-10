@@ -16,6 +16,7 @@ class Show extends Component{
                     <h3 className="businessName">Business Name</h3>
                     <p className="businessAddress">Business Address</p>
                     <p className="businessLoading">Front/Back loading: N/A</p>
+                    <p className="businessDock">Dock: 7</p>
                 </div>
                 <div className="reviewsContainer">
                     <ul className="reviewsList">

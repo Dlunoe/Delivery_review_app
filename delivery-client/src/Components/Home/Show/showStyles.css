@@ -23,6 +23,10 @@ grid-template-columns: 50% 50%;
     grid-column: 2;
     grid-row: 1;
 }
+.businessDock{
+    grid-column: 2;
+    grid-row:2;
+}
 .reviewsContainer{
     /* height: 100%; */
     width: 100%;
