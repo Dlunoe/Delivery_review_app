@@ -14,7 +14,8 @@ class Header extends Component{
     render(){
         return(
             <div className="headerMain">
-                This is header.
+                <br />
+                <h2>Delivery App</h2>
             </div>
         )
     }

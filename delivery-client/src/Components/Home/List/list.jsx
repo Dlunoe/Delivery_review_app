@@ -11,6 +11,10 @@ class List extends Component{
     render(){
         return(
             <div className="searchListContainer">
+                <form>
+                    <input type="text" className="searchBox" placeholder="search" />
+                    <input type="submit" className="searchSubmit" value="submit" />
+                </form>
                 <ul className="searchList">
                     <li className="searchItem">
                         <h4 className="searchName">business name</h4>
