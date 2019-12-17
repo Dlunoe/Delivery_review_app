@@ -1,8 +1,8 @@
 .homeContainer{
-    text-align: center;
-    width: 90%;
+    align-content: center;
+    width: 1246px;
     height: 800px;
-    margin: auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 500px 750px;
 }
