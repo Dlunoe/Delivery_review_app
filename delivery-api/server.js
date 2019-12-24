@@ -13,6 +13,8 @@ app.use(cors({
     origin: "http://localhost:3000"
 }))
 
+
+
 app.listen(3001, () =>{
     console.log('listening on port 3001');
 } )
