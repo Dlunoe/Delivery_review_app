@@ -13,7 +13,11 @@ app.use(cors({
     origin: "http://localhost:3000"
 }))
 
+const userController = require('./controllers/userController');
+const businessController = require('./controllers/businessController');
 
+app.use('/user', userController);
+app.use('/business', businessController);
 
 app.listen(3001, () =>{
     console.log('listening on port 3001');
